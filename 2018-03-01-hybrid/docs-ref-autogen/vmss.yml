@@ -1009,7 +1009,7 @@ directCommands:
       One or more resource IDs (space-delimited). It should be a complete resource ID containing all information of 'Resource Id' arguments. You should provide either --ids or other 'Resource Id' arguments.
   - name: --instance-id
     summary: |-
-      Update the VM instance with this ID. If missing, Update the VMSS.
+      Update the VM instance with this ID. If missing, update the VMSS.
   - name: --license-type
     parameterValueGroup: "None, RHEL_BASE, RHEL_BASESAPAPPS, RHEL_BASESAPHA, RHEL_BYOS, RHEL_ELS_6, RHEL_EUS, RHEL_SAPAPPS, RHEL_SAPHA, SLES, SLES_BYOS, SLES_HPC, SLES_SAP, SLES_STANDARD, UBUNTU, UBUNTU_PRO, Windows_Client, Windows_Server"
     summary: |-
@@ -1131,7 +1131,7 @@ directCommands:
       One or more resource IDs (space-delimited). It should be a complete resource ID containing all information of 'Resource Id' arguments. You should provide either --ids or other 'Resource Id' arguments.
   - name: --instance-id
     summary: |-
-      Wait on the VM instance with this ID. If missing, Wait on the VMSS.
+      Wait on the VM instance with this ID. If missing, wait on the VMSS.
   - name: --interval
     defaultValue: "30"
     summary: |-

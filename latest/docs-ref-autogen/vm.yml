@@ -628,7 +628,7 @@ directCommands:
       Specify the mode that proxy agent will execute on if the feature is enabled.
   - name: --public-ip-address
     summary: |-
-      Name of the public IP address when creating one (default) or referencing an existing one. Can also reference an existing public IP by ID or specify "" for None ('""' in Azure CLI using PowerShell or --% operator). For Azure CLI using powershell core edition 7.3.4, specify  or "" (--public-ip-address  or --public-ip-address "").
+      Name of the public IP address when creating one (default) or referencing an existing one. Can also reference an existing public IP by ID or specify "" or '' for None ('""' in Azure CLI using PowerShell).
   - name: --public-ip-address-allocation
     parameterValueGroup: "dynamic, static"
   - name: --public-ip-address-dns-name
